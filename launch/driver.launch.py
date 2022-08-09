@@ -99,7 +99,7 @@ def generate_launch_description():
         description="Argument which specified if the entire launch file should terminate if the node dies"),
     DeclareLaunchArgument(
         'sensor_sn',
-        default_value="''",
+        default_value="000721420212",
         description="Sensor serial number. If none provided, the first sensor will be selected"),
     DeclareLaunchArgument(
         'recording_file',
