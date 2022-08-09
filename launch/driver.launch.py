@@ -99,11 +99,11 @@ def generate_launch_description():
         description="Argument which specified if the entire launch file should terminate if the node dies"),
     DeclareLaunchArgument(
         'sensor_sn',
-        default_value="",
+        default_value="None",
         description="Sensor serial number. If none provided, the first sensor will be selected"),
     DeclareLaunchArgument(
         'recording_file',
-        default_value="",
+        default_value="None",
         description="Absolute path to a mkv recording file which will be used with the playback api instead of opening a device"),
     DeclareLaunchArgument(
         'recording_loop_enabled',
